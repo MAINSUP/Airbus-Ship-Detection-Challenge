@@ -1,4 +1,4 @@
-# Airbus-Ship-Detection-Challenge-Winstars.AI-
+# Airbus-Ship-Detection-Challenge
 Current repository contains Kaggle Airbus Ship Detection Challenge competition notebook and python script files for both high and low level model training and inference.
 
 Notebook can be directly uploaded to Kaggle and used as it is on Airbus Ship Detection Challenge input dataset.
