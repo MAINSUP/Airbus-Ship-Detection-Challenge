@@ -35,7 +35,7 @@ Few lines of code demonstrate, how to save Tensorflow model and the convert it t
 Python files .py and .py can be used for model training and model inference, respectively.
 To run, input files should be located in the same directory as script files.
 
-✔Please check requirements.txt for required libriaries for running the code.
+✔Please check requirements.txt to get required libriaries for running the code.
 
 
 
