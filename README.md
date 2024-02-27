@@ -19,7 +19,7 @@ where x and y are coordinates in pixels.
 
 Section 3. Since it is a common approach to utilize transfer learning while developing ML models, section 3 contains an example of it.
 A pretrained model "MobilNetV2" is used to build training model that consits of dense, dropout layers.
-<img src='<img src='./a.jpg' width=60%>' width=60%>x
+<img src='<img src='./a.jpg' width=60%>' width=60%>
 Hyperparameters are number of dense layers, dropout coeficient, learning rate, and number of epochs.
 Callbacks are used to watch training performance and visualize it with use of Tensorboard libriary as found necessary.
 
