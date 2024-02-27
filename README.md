@@ -17,9 +17,9 @@ Since models perform better with normilized inputs, channels are normilized to b
 Training and validation bounding boxes (targets) are given in the form of 4 component vector, like Box = [x1, y1, x2, y2],
 where x and y are coordinates in pixels.
 
-Section 3. Since it a common approach to utilize transfer learning while developing ML models, section 3 contains an example of it.
-A pretrained model " " is used to build training model that consits of dense, dropout layers.
-Hyperparameters are number of dense layers, dropout coeficient, learning rate.
+Section 3. Since it is a common approach to utilize transfer learning while developing ML models, section 3 contains an example of it.
+A pretrained model "MobilNetV2" is used to build training model that consits of dense, dropout layers.
+Hyperparameters are number of dense layers, dropout coeficient, learning rate, and number of epochs.
 Callbacks are used to watch training performance and visualize it with use of Tensorboard libriary as found necessary.
 
 In Section 4 of the notebook, a custom training model is build to compare performance of pretrained model from Sec. 3 and provide few extra hypermarameters from image augmentation layer.
@@ -32,7 +32,7 @@ The model structure and training performance is visualized with Tensorboard widg
 Further model inference is based on TFLite model, a compact model format, optimized for deployment. 
 Few lines of code demonstrate, how to save Tensorflow model and the convert it to TFLite format.
 
-Python files .py and .py can be used for model training and model inference, respectively.
+Python files ASD_model_trained.py and ASD_model_inference.py can be used for model training and model inference, respectively.
 To run, input files should be located in the same directory as script files.
 
 ✔Please check requirements.txt to get required libriaries for running the code.
